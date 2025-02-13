@@ -30,16 +30,43 @@ The **Inventory Management System** is a **Django-based web application** design
 ## 📂 File Structure
 
 ```
-manage.py
 inventory_system/
-    settings.py
-    urls.py
-inventory/
-    models.py
-    views.py
-    forms.py
-    templates/
-    static/
+    inventory/
+        __init__.py
+        admin.py
+        apps.py
+        forms.py
+        migrations/
+            __init__.py
+            ... (migration files)
+        models.py
+        static/
+            css/
+                ... (CSS files)
+            js/
+                ... (JavaScript files)
+            images/
+                ... (image files)
+        templates/
+            inventory/
+                add_item.html
+                dashboard.html
+                ... (other HTML templates)
+            home.html
+        tests.py
+        urls.py
+        views.py
+    inventory_system/
+        __init__.py
+        asgi.py
+        settings.py
+        urls.py
+        wsgi.py
+    manage.py
+    requirements.txt
+    README.md
+
+
 ```
 
 ---
